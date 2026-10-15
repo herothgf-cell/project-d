@@ -1,0 +1,16 @@
+{
+  "name": "body-share",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Mobile-first, PC-testable Body Share puzzle",
+  "engines": {"node": ">=22"},
+  "scripts": {
+    "start": "node scripts/serve.cjs",
+    "dev": "node scripts/serve.cjs",
+    "dev:lan": "node scripts/serve.cjs --host=0.0.0.0",
+    "test": "node --test tests/*.test.js",
+    "check:levels": "node scripts/verify-levels.cjs",
+    "build": "node scripts/build.cjs",
+    "test:ui": "python tests/ui_test.py"
+  }
+}
